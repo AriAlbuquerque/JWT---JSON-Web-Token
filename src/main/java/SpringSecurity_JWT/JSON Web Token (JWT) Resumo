@@ -1,0 +1,20 @@
+
+**********JSON Web Token (JWT):
+
+    * JWT (JSON Web Token) é um padrão aberto (RFC 7519) para a criação de tokens de acesso que podem ser usados para autenticar e autorizar usuários,
+     em aplicativos web e APIs RESTful;
+     O JWT é um objeto JSON codificado em Base64 que consiste em três partes: um cabeçalho, um payload e uma assinatura;
+
+   * O cabeçalho JWT contém informações sobre o tipo de token e o algoritmo de criptografia utilizado para gerar a assinatura;
+   O tipo de token é normalmente definido como "JWT" e o algoritmo de criptografia pode ser escolhido entre várias opções, incluindo HMAC, RSA ou ECDSA.
+
+   * O payload JWT contém as informações do usuário que serão transmitidas entre o servidor e o cliente;
+   As informações incluem dados de identificação do usuário, como nome e endereço de e-mail, bem como outras informações relevantes para a autenticação e autorização do usuário;
+
+   * A assinatura JWT é usada para verificar a integridade do token. Ela é gerada pela combinação do cabeçalho e do payload;
+    juntamente com uma chave secreta que é conhecida apenas pelo servidor;
+    O cliente pode então usar a assinatura para verificar se o token é válido e não foi alterado durante a transmissão;
+
+    *** Em resumo, o JWT é uma forma segura de transmitir informações do usuário entre o cliente e o servidor sem a necessidade de armazenar dados de usuário no servidor;
+     Ele é amplamente utilizado em aplicações web e APIs RESTful como uma alternativa mais eficiente e segura ao uso de cookies e sessões para autenticação e autorização
+     de usuários.
